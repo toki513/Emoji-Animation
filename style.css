@@ -4,12 +4,25 @@ body{
     background-color: black;
 }
 span{
-    background: url("https://cdn2.iconfinder.com/data/icons/valentine-day-16/512/578_Heart_Love_Couple_Valentine_Greetings_valentine_valentines_day_love-512.png");
+    background: url("https://cdn2.iconfinder.com/data/icons/valentine-day-16/512/541_loving_love_heart_wedding_valentine_valentines_day_love-512.png");
     height: 100px;
     width: 100px;
     position: absolute;
     background-size: cover;
+    pointer-events: none;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    animation: animate 6s linear;
+}
+
+@keyframes animate{
+    0%{
+        transform: translate(-50%,-50%);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(-50%,-5000%);
+        opacity: 0;
+    }
 }
