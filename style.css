@@ -4,5 +4,12 @@ body{
     background-color: black;
 }
 span{
-    
+    background: url("https://cdn2.iconfinder.com/data/icons/valentine-day-16/512/578_Heart_Love_Couple_Valentine_Greetings_valentine_valentines_day_love-512.png");
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
