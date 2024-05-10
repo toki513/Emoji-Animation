@@ -2,6 +2,7 @@ body{
     margin: 0;
     height: 100vh;
     background-color: black;
+    overflow: hidden;
 }
 span{
     background: url("https://cdn2.iconfinder.com/data/icons/valentine-day-16/512/541_loving_love_heart_wedding_valentine_valentines_day_love-512.png");
